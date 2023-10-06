@@ -131,7 +131,7 @@ label {
   }
 
   &__info {
-    border-left: 12px solid #f16d7f;
+    border-left: 12px solid $main_color;
     padding-left: 16px;
   }
 
@@ -140,7 +140,7 @@ label {
     font-weight: 900;
     font-size: 48px;
     line-height: 58px;
-    color: #222222;
+    color: $color_box;
   }
 
   &__heading {
@@ -148,7 +148,7 @@ label {
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-    color: #222222;
+    color: $color_box;
   }
 }
 
@@ -242,7 +242,7 @@ label {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: #ffffff;
+    color: $main_second_color;
   }
 
   &__heading {
@@ -251,7 +251,7 @@ label {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
-    color: #f16d7f;
+    color: $main_color;
   }
 }
 
@@ -259,7 +259,7 @@ label {
   height: 132px;
   padding-top: 39px;
 
-  background: #fff;
+  background: $main_second_color;
   position: relative;
   display: flex;
 
@@ -276,11 +276,11 @@ label {
   &__content {
     padding: 0 16px 16px;
 
-    background-color: white;
+    background-color: $main_second_color;
   }
 
   &[open] {
-    background: #fff;
+    background: $main_second_color;
     box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   }
 
@@ -379,7 +379,7 @@ label {
     position: absolute;
     top: 22px;
     left: -9px;
-    background: #fff;
+    background: $main_second_color;
     box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
     padding: 7px 30px 11px 9px;
 
@@ -411,7 +411,7 @@ label {
 }
 
 .main-product {
-  background-color: #f7f7f7;
+  background-color: $top_photo_bg_color;
   position: relative;
 
   &__img {
@@ -443,14 +443,14 @@ label {
   &__center {
     display: flex;
     justify-content: center;
-    background: #fff;
+    background: $main_second_color;
   }
 
   &__info {
     margin-top: -65px;
     padding: 65px 293px;
 
-    background-color: #ffffff;
+    background-color: $main_second_color;
 
     display: flex;
     flex-direction: column;
@@ -506,7 +506,7 @@ label {
       font-weight: 400;
       line-height: 17px;
       color: #6f6e6e;
-      background-color: white;
+      background-color: $main_second_color;
 
       border: none;
       cursor: pointer;
@@ -528,17 +528,17 @@ label {
 
     &__button:hover {
       background-color: $main_color;
-      color: white;
+      color: $main_second_color;
       transition: 0.3s;
     }
 
     &__button:hover path {
-      fill: white;
+      fill: $main_second_color;
     }
   }
 
   &__bottom {
-    background: #fff;
+    background: $main_second_color;
   }
 
   &__bottom__items {
@@ -557,7 +557,7 @@ label {
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #222222;
+    color: $color_box;
   }
 
   &__text {
@@ -593,15 +593,15 @@ label {
       line-height: 19px;
       color: #f26376;
 
-      background-color: white;
+      background-color: $main_second_color;
       border: 1px solid #ff6a6a;
 
       cursor: pointer;
     }
 
     &__text:hover {
-      color: white;
-      background-color: #f16d7f;
+      color: $main_second_color;
+      background-color: $main_color;
       transition: 0.3s;
     }
   }
@@ -675,7 +675,7 @@ label {
       font-weight: 400;
       font-size: 13px;
       line-height: 16px;
-      color: #000000;
+      color: $color_text;
     }
 
     &__text {
@@ -691,7 +691,7 @@ label {
       font-weight: 400;
       font-size: 16px;
       line-height: 19px;
-      color: #f16d7f;
+      color: $main_color;
     }
   }
 }
@@ -852,7 +852,7 @@ label {
 
         border: none;
         width: 100px;
-        background: #f16d7f;
+        background: $main_color;
         font-family: "Lato";
         font-style: normal;
         font-weight: 400;
@@ -899,15 +899,15 @@ label {
 
       width: 32px;
       height: 32px;
-      background-color: white;
+      background-color: $main_second_color;
     }
 
     &__item:hover {
-      background-color: #f16d7f;
+      background-color: $main_color;
     }
 
     &__item:hover path {
-      fill: white;
+      fill: $main_second_color;
     }
   }
 }
