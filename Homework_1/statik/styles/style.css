@@ -58,7 +58,7 @@ label {
   top: 75px;
   right: 5%;
   z-index: 2;
-  background: #fff;
+  background: #ffffff;
   padding: 32px 74px 32px 32px;
 }
 .mobile-menu__heading {
@@ -217,7 +217,8 @@ label {
   width: 47px;
   height: 47px;
   border: none;
-  background-color: #c0c0bb;
+  /*background-color: #c0c0bb;*/
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -229,11 +230,12 @@ label {
 .main-product__center {
   display: flex;
   justify-content: center;
-  background: #fff;
+  background: #ffffff;
 }
 .main-product__info {
   margin-top: -65px;
   padding: 65px 293px;
+  border: 0.5px solid #eaeaea;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -282,7 +284,7 @@ label {
   font-weight: 400;
   line-height: 17px;
   color: #6f6e6e;
-  background-color: white;
+  background-color: #ffffff;
   border: none;
   cursor: pointer;
 }
@@ -291,6 +293,7 @@ label {
   display: flex;
   align-items: center;
   gap: 22.91px;
+  background-color: #ffffff;
   font-family: Lato;
   font-size: 16px;
   font-weight: 400;
@@ -300,14 +303,14 @@ label {
 }
 .main-product__info__button:hover {
   background-color: #f16d7f;
-  color: white;
+  color: #ffffff;
   transition: 0.3s;
 }
 .main-product__info__button:hover path {
-  fill: white;
+  fill: #ffffff;
 }
 .main-product__bottom {
-  background: #fff;
+  background: #ffffff;
 }
 .main-product__bottom__items {
   padding: 128px 0;
@@ -358,7 +361,7 @@ label {
   cursor: pointer;
 }
 .product-box__button__text:hover {
-  color: white;
+  color: #ffffff;
   background-color: #f16d7f;
   transition: 0.3s;
 }
@@ -421,7 +424,7 @@ label {
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
-  color: #000000;
+  color: #000;
 }
 .product__content__text {
   font-style: normal;
@@ -575,13 +578,13 @@ label {
   align-items: center;
   width: 32px;
   height: 32px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .footer__items__item:hover {
   background-color: #f16d7f;
 }
 .footer__items__item:hover path {
-  fill: white;
+  fill: #ffffff;
 }
 
 @media (max-width: 768px), (max-width: 1024px) {
